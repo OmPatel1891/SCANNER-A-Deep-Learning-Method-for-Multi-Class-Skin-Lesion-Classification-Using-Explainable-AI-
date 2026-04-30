@@ -1,38 +1,71 @@
-# STATS-507---Coursework
+# STATS 507 — Data Science in Python: Coursework
 
-# SCANNER: Skin Cancer Analysis Neural Network for Early Recognition
+> **Graduate-level data science coursework covering statistical computing, data manipulation, machine learning pipelines, and reproducible analysis in Python.**
 
-A deep learning system for multi-class skin lesion classification using Explainable AI (XAI) for clinical transparency.
+---
 
-## Project Overview
+## Overview
 
-SCANNER is an advanced deep learning model that classifies dermatoscopic images into 7 types of skin lesions with integrated explainable AI components for clinical interpretability.
+This repository contains coursework from **STATS 507: Data Science in Python** at the University of Michigan Ann Arbor. The course covers practical data science through hands-on programming assignments — from data wrangling and statistical inference to ML model building and visualization.
 
-## Classification Categories
+---
 
-The model classifies skin lesions into 7 diagnostic categories:
-- Actinic Keratosis (AKIEC)
-- Basal Cell Carcinoma (BCC) 
-- Benign Keratosis (BKL)
-- Dermatofibroma (DF)
-- Melanoma (MEL)
-- Melanocytic Nevus (NV)
-- Vascular Lesion (VASC)
+## Topics Covered
 
-## Data Processing
-- Dataset: HAM10000 (5,000 images used)
-- Image Size: 224×224 pixels
-- Data Balancing: Strategic oversampling (rare classes) + undersampling (dominant classes)
-- Augmentation: Rotation (40°), Shifting (25%), Zooming (30%), Flipping, Brightness adjustment
+| Module | Key Concepts |
+|---|---|
+| Data Manipulation | pandas, NumPy, vectorized operations |
+| Statistical Inference | Hypothesis testing, confidence intervals, bootstrapping |
+| Data Visualization | Matplotlib, Seaborn, exploratory analysis |
+| Machine Learning | scikit-learn pipelines, cross-validation, model evaluation |
+| Reproducible Research | Jupyter Notebooks, structured code, documentation |
 
-## Key Features:
-- Multi-class skin lesion classification 
-- ResNet50-based architecture with custom classification head
-- Comprehensive data balancing strategies
-- Explainable AI with saliency mapping and lesion boundary detection
-- Clinical-grade visualization and interpretability
+---
 
-## Performance
+## Tech Stack
 
-- Test Accuracy: 69.60%
-- Validation Accuracy: 78.96%
+| Category | Tools |
+|---|---|
+| Language | Python 3 |
+| Core Libraries | pandas, NumPy, scikit-learn, Matplotlib, Seaborn |
+| Environment | Jupyter Notebook / Python scripts |
+| University | University of Michigan Ann Arbor |
+| Course | STATS 507 — Data Science in Python |
+
+---
+
+## Repository Structure
+
+```
+STATS-507---Coursework/
+├── hw1/          # Data manipulation and pandas fundamentals
+├── hw2/          # Statistical analysis and visualization
+├── hw3/          # Regression and classification with scikit-learn
+├── hw4/          # Advanced ML pipelines and evaluation
+└── ...           # Additional assignments and projects
+```
+
+*(Exact folder structure may vary — see repository for current contents)*
+
+---
+
+## Highlights
+
+- Applied **pandas** for large-scale tabular data cleaning and transformation
+- Built end-to-end **scikit-learn** ML pipelines with proper train/validation/test splits
+- Used **bootstrapping** and **permutation tests** for statistical inference
+- Produced publication-quality visualizations with **Matplotlib/Seaborn**
+- Maintained reproducible, well-documented notebooks throughout
+
+---
+
+## Academic Context
+
+This work was completed as part of the MS Data Science program at the University of Michigan Ann Arbor. All assignments represent individual work following course academic integrity guidelines.
+
+---
+
+## Author
+
+**Om Patel** | MS Data Science, University of Michigan Ann Arbor  
+[LinkedIn](https://www.linkedin.com/in/om-patel-20507a219/) · [GitHub](https://github.com/OmPatel1891)
