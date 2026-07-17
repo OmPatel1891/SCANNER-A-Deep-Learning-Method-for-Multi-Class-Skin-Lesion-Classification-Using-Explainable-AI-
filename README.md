@@ -142,4 +142,3 @@ Two independent layers, each answering a different question about a prediction:
 
 ## Author
 Om Patel · MS Data Science, University of Michigan
-GitHub · LinkedIn
